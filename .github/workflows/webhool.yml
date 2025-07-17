@@ -1,0 +1,11 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs: 
+    publish:
+          runs-on: ubuntu-latest
+          steps:
+            - name: Publish to webhool
+              run: echo "Publishing to webhool"
