@@ -1,0 +1,10 @@
+on:
+    repository_dispatch:
+      types: [incident_report]
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report incident
+        run: echo "Reporting incident to webhook"
