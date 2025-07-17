@@ -7,5 +7,5 @@ jobs:
     publish:
           runs-on: ubuntu-latest
           steps:
-            - name: Publish to webhool
-              run: echo "Publishing to webhool"
+            - name: Publish to webhook
+              run: echo "Publishing to webhook"
