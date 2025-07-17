@@ -25,7 +25,7 @@ session_start();
 
     <form action="handle_login.php" method="post">
       <?php
-      if(isset($_GET["msg"]) && $_GET["msg"] =='no_user'){
+      if(isset($_GET["msg"]) && $_GET["msg"] =="no_user"){
         ?> 
 
         <div class="alert">
